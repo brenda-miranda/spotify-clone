@@ -1,19 +1,27 @@
-html, body, #home {
+/* * *
+Global
+* * */
+html, 
+body, 
+#home {
     height: 100%;
     overflow-x: hidden;
 }
 
 body {
-    background: url(../img/capa.png),
-                url(../img/ruido.png),
+    font-family: Helvetica, Arial, sans-serif;
+    background: url(../img/capa.png), 
+                url(../img/ruido.png), 
                 linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
-    font-family: Helvetica, Arial, sans-serif;
 }
 
+/* * *
+Navbar
+* * */
 .navbar-style {
-    background: rgba(0, 0, 0, 0.5);
     padding-left: 15px 0px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -38,48 +46,118 @@ body {
     background: #fff;
 }
 
+/* * * * * 
+Typography
+* * * * */
+h1 {
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+/* * *
+Cover
+* * */
 .cover {
     text-align: center;
 }
 
 .btn-custom {
     color: #fff;
+    padding: 10px 20px;
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
     text-transform: uppercase;
     transition: background 0.4s, color 0.4s;
-    padding: 10px 20px;
 }
 
 .btn-roxo {
     background: #7c26f8;
 }
 .btn-roxo:hover {
-    background: #6207e3;
     color: #fff;
+    background: #6207e3;
 }
 
 .btn-branco {
     border: 2px solid white;
 }
 .btn-branco:hover {
-    background: #fff;
     color: #000;
+    background: #fff;
+}
+
+.box {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
+/* * * * * * * *
+Section serviços
+* * * * * * * */
+#serviços {
+    background: #fff;
+}
+
+#serviços h2, h3 {
+    color: #7c25f8;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+/* * * * * * * *
+Section recursos
+* * * * * * * */
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos h2 {
+    color: #fff;
+}
+
+#recursos p {
+    color: #fff;
+}
+
+.rotacionar {
+    padding-left: 80px;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+/* * *
+Footer
+* * */
 footer {
-    background: #000;
     padding: 50px 0 20px 0;
     position: relative;
+    background: #000;
 }
 
 footer h4 {
     color: #919496;
     font-size: 0.8em;
-    text-transform: uppercase;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 footer .navbar-nav a {
@@ -96,18 +174,18 @@ footer ul {
     list-style: none;
 }
 footer ul li {
+    font-size: 1.3em;
     float: right;
     margin: 0 5px;
     padding: 3px 0 15px;
-    font-size: 1.3em;
 }
 
 .footer-secondary {
-    display: inline-block;
-    margin-bottom: 25px;
-    margin-top: 45px;
-    padding: 2em 0em;
     font-size: 10px;
+    display: inline-block;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    padding: 2em 0em;
 }
 
 .footer-secondary li a {
@@ -115,74 +193,21 @@ footer ul li {
     padding-left: 14px;
 }
 
-h1 {
-    font-weight: 900;
-    letter-spacing: -0.05em;
-    margin-bottom: 50px;
-    color: #fff;
-}
-
-h2 {
-    font-size: 3em;
-    font-weight: 700;
-    letter-spacing: -0.04em;
-}
-
-h3 {
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: -0.04em;
-}
-
-.box {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#serviços {
-    background: #fff;
-}
-
-#serviços h2, h3 {
-    color: #7c25f8;
-}
-
-#recursos h3 {
-    color: #9bf0e1;
-}
-
-#recursos h2 {
-    color: #fff;
-}
-
-#recursos p {
-    color: #fff;
-}
-
-
-.albuns {
-    padding: 10px 0;
-}
-
-.rotacionar {
-    -ms-transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-    padding-left: 80px;
-}
-
+/* * * * *
+Responsive
+* * * * */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .btn-custom {
-        margin: 10px 15px;
         font-size: 1em;
+        margin: 10px 15px;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     h1 {
-     font-size: 3em;
+        font-size: 3em;
     }
     .btn-custom {
         margin: 10px 15px;
