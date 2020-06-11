@@ -23,7 +23,7 @@ body {
     border-color: rgba(255, 255, 255, 0);
 }
 
-.divisor {
+.divisor { 
     width: 2px;
     margin: 12px 15px;
     background: #fff;
