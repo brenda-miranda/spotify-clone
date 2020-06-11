@@ -18,10 +18,12 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
+    font-weight: 700;
+    padding: 15px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #9bf0e1;
+    color: #1DB954;
 }
 
 .navbar-light .navbar-toggler {
@@ -31,7 +33,8 @@ body {
 
 .divisor { 
     width: 2px;
-    margin: 12px 15px;
+    height: 20px;
+    margin: 18px 15px;
     background: #fff;
 }
 
@@ -76,6 +79,7 @@ footer h4 {
     color: #919496;
     font-size: 0.8em;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 footer .navbar-nav a {
@@ -84,7 +88,7 @@ footer .navbar-nav a {
 }
 
 footer .navbar-nav a:hover {
-    color: #9bf0e1;
+    color: #1DB954;
     text-decoration: none;
 }
 
@@ -94,6 +98,21 @@ footer ul {
 footer ul li {
     float: right;
     margin: 0 5px;
+    padding: 3px 0 15px;
+    font-size: 1.3em;
+}
+
+.footer-secondary {
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-top: 45px;
+    padding: 2em 0em;
+    font-size: 10px;
+}
+
+.footer-secondary li a {
+    color: #919496;
+    padding-left: 14px;
 }
 
 h1 {
