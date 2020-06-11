@@ -106,7 +106,9 @@ Cover
     padding-bottom: 20px;
 }
 
-
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
 /* * * * * * * *
 Section serviços
 * * * * * * * */
