@@ -204,6 +204,20 @@ Responsive
         font-size: 1em;
         margin: 10px 15px;
     }
+    .navbar-style {
+        padding-left: 15px 0px;
+        background: #000;
+    }
+    html, 
+    body, 
+    #home {
+        height: 100%;
+        overflow-x: visible;
+    }
+    footer .col-md-2 {
+        margin-top: 25px;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -215,6 +229,19 @@ Responsive
         margin: 10px 15px;
         
     }
+    .navbar-style {
+        padding-left: 15px 0px;
+        background: #000;
+    }
+     html, 
+     body, 
+     #home {
+        height: 100%;
+        overflow-x: visible;
+    }
+    footer .col-md-2 {
+        margin-top: 25px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -222,6 +249,7 @@ Responsive
     h1 {
         font-size: 4em;
     }
+    
 }
 
 /* Large devices (desktops, 992px and up) */
