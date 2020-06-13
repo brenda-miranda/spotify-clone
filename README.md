@@ -3,19 +3,19 @@
 </h1>
 ________
  
-### 📚 Stack utilizada:
+### 📚  Stack utilizada:
 * Bootstrap
 * CSS
 * HTML
 
-### ✨ Sobre o projeto e o que eu aprendi:
+### ✨  Sobre o projeto e o que eu aprendi:
 O projeto é o clone de um dos layouts do site do Spotify. Com este projeto eu encerro o módulo de Bootstrap no curso de Desenvolvimento Web.
 
-### 📷 GIF do site:
+### 📷  GIF do site:
 
 ![](screenshots/1.gif)
 ________
 
 <h4 align="center">
-  Feito com ❤ by Brenda Miranda
+  Feito com ❤  by Brenda Miranda
 </h4>
