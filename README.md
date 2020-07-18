@@ -1,7 +1,8 @@
 <h1 align="center">
   Site clone do Spotify feito durante o curso de Desenvolvimento Web da Udemy o/
 </h1>
-________
+
+<hr>
  
 ### 📚  Stack utilizada:
 * Bootstrap
