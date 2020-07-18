@@ -11,7 +11,7 @@
 ### ✨  Sobre o projeto e o que eu aprendi:
 O projeto é o clone de um dos layouts do site do Spotify. Com este projeto eu encerro o módulo de Bootstrap no curso de Desenvolvimento Web.
 <h1 align="center">
-### 📷  GIF do site:
+📷  GIF do site: <br />
 
 ![](screenshots/1.gif)
 </h1>
